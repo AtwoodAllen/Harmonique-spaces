@@ -3,112 +3,133 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Harmonique Spaces</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Harmoniq Spaces | Home</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 <body>
 
-  <!-- Header / Navbar -->
-  <header>
-    <nav class="navbar">
-      <div class="logo">Harmonique Spaces</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
+  <header class="header">
+    <nav class="navbar container">
+      <div class="logo">Harmoniq Spaces</div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="service.html">Services</a></li>
         <li><a href="portfolio.html">Portfolio</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
     </nav>
   </header>
 
-  <!-- Hero Section -->
   <section class="hero">
-    <div class="hero-content">
-      <h1>Transforming Spaces, Creating Memorable Experiences</h1>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container reveal">
+      <h1>Transforming Spaces Into Beautiful Experiences</h1>
       <p>
-        Harmonique Spaces brings your vision to life through elegant interior design,
-        stylish decoration, and unforgettable event planning.
+        Harmoniq Spaces delivers elegant decoration, modern interior design,
+        and memorable event planning tailored to your unique style.
       </p>
       <div class="hero-buttons">
-        <a href="services.html" class="btn">Explore Services</a>
-        <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+        <a href="service.html" class="btn">Explore Services</a>
+        <a href="contact.html" class="btn btn-outline">Book a Consultation</a>
       </div>
     </div>
   </section>
 
-  <!-- About Preview -->
-  <section class="about-preview">
+  <section class="about-preview section reveal">
     <div class="container">
-      <h2>About Harmonique Spaces</h2>
+      <h2>About Us</h2>
       <p>
-        We specialize in creating beautiful interiors, unique decorative concepts,
-        and well-planned events that reflect your personality and purpose.
+        At Harmoniq Spaces, we bring creativity, style, and function together
+        to create stunning interiors and unforgettable event settings.
+        Our mission is to turn ordinary spaces into inspiring environments.
       </p>
     </div>
   </section>
 
-  <!-- Services Preview -->
-  <section class="services-preview">
+  <section class="services-preview section reveal">
     <div class="container">
       <h2>Our Services</h2>
-      <div class="service-cards">
+      <div class="cards">
         <div class="card">
           <h3>Interior Designing</h3>
-          <p>Elegant and functional interior solutions tailored to your taste and lifestyle.</p>
+          <p>
+            We create stylish, comfortable, and functional interior spaces
+            that reflect your taste and lifestyle.
+          </p>
         </div>
+
         <div class="card">
           <h3>Decoration</h3>
-          <p>Creative decoration ideas that enhance beauty, comfort, and atmosphere.</p>
+          <p>
+            From homes to event venues, we add elegant decorative touches
+            that elevate every environment.
+          </p>
         </div>
+
         <div class="card">
           <h3>Event Planning</h3>
-          <p>Professional planning and styling for memorable events and celebrations.</p>
+          <p>
+            We plan and style memorable events with creativity,
+            precision, and attention to every detail.
+          </p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Why Choose Us -->
-  <section class="why-us">
+  <section class="why-us section reveal">
     <div class="container">
-      <h2>Why Choose Us</h2>
-      <ul>
-        <li>Creative and modern design ideas</li>
-        <li>Attention to detail</li>
-        <li>Client-centered approach</li>
-        <li>Professional event coordination</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- Gallery Preview -->
-  <section class="gallery-preview">
-    <div class="container">
-      <h2>Our Inspiration Gallery</h2>
-      <div class="gallery-grid">
-        <div class="gallery-item">Image 1</div>
-        <div class="gallery-item">Image 2</div>
-        <div class="gallery-item">Image 3</div>
-        <div class="gallery-item">Image 4</div>
+      <h2>Why Choose Harmoniq Spaces?</h2>
+      <div class="why-grid">
+        <div class="why-box">
+          <h3>Creative Vision</h3>
+          <p>We blend beauty and originality to give every project a unique identity.</p>
+        </div>
+        <div class="why-box">
+          <h3>Attention to Detail</h3>
+          <p>Every color, texture, and arrangement is chosen with care and precision.</p>
+        </div>
+        <div class="why-box">
+          <h3>Professional Approach</h3>
+          <p>We work closely with clients to deliver quality results on time.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- Contact Preview -->
-  <section class="contact-preview">
+  <section class="gallery-preview section reveal">
     <div class="container">
-      <h2>Let’s Design Something Beautiful Together</h2>
-      <p>Contact us today to start planning your dream interior or event.</p>
-      <a href="contact.html" class="btn">Get In Touch</a>
+      <h2>Inspiration Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">Interior</div>
+        <div class="gallery-item">Decor</div>
+        <div class="gallery-item">Events</div>
+        <div class="gallery-item">Luxury Space</div>
+      </div>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>&copy; 2026 Harmonique Spaces. All rights reserved.</p>
+  <section class="contact-preview section reveal">
+    <div class="container">
+      <h2>Let’s Create Something Beautiful</h2>
+      <p>
+        Whether you need a refreshed interior, elegant decoration,
+        or a fully planned event, Harmoniq Spaces is ready to bring your vision to life.
+      </p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Harmoniq Spaces. All rights reserved.</p>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
+  <script src="../JAVASCRIPT/script.js"></script>
 </body>
 </html>

@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  alert("Welcome to Harmonique Spaces!");
+  console.log("Harmoniq Spaces website loaded successfully.");
 });
